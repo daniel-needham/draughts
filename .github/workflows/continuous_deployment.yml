@@ -5,6 +5,9 @@ on:
     workflows: [Continuous integration]
     types: [completed]
 
+permissions:
+  contents: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
